@@ -1,0 +1,93 @@
+#Titulo {
+    font-size: 30px;
+    Color: orange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#menu
+{
+  width: 100%;
+}
+#registro,
+#principal,
+#camara
+  {
+      display: none;
+  }
+
+.menu
+{
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 60%;
+  transition: 0.5s;
+  z-index: 1;
+}
+.botonCerrar{
+  position: absolute;
+  top: 0%;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; 
+  color: forestgreen;
+  text-decoration: none;
+}
+.opciones{
+  text-decoration: none;
+  color: green;
+  padding-left: 20px;
+}
+.opciones:visited{
+  color: green;
+}
+.boton {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #9499d6;
+    font-family: Courier New;
+    color: #fff7ff;
+    font-size: 20px;
+    background: orange;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .errorCampo{
+    border-color: red;
+    border-width: 3px;
+  }
+  .titulo{
+    text-align: center;
+    font-size: 18px;
+    color: green;
+    width: 100%;
+  }
+    #bienvenida {
+      text-align: center;
+      color: violet;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+      font-size: 14px;
+    }
+  
+.inputget{
+  display: none;
+}
+  
+.container-photo{
+  width:100%;
+  height:auto;
+  background-color: black;
+  margin-bottom: 3px ;
+}
+
+.photo{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
