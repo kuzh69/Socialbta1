@@ -1,93 +1,112 @@
-#Titulo {
-    font-size: 30px;
-    Color: orange;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Ajustar líneas largas">
+  </head>
+  <body>
+    <pre>#titulo {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(10, 0, 143);
 }
-#menu
-{
-  width: 100%;
+
+#bienvenida {
+    width: 100%;
+    color: rgb(3, 88, 3);
+    font-size: 16px;
 }
+
+#menu {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(10, 0, 143);
+    width: 100%;
+}
+
 #registro,
 #principal,
-#camara
-  {
-      display: none;
-  }
+#camara {
+    display: none;
+}
 
-.menu
-{
-  width: 0%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: black;
-  overflow-x: hidden;
-  padding-top: 60%;
-  transition: 0.5s;
-  z-index: 1;
+.menu {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+    z-index: 1;
 }
-.botonCerrar{
-  position: absolute;
-  top: 0%;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px; 
-  color: forestgreen;
-  text-decoration: none;
+
+.botonCerrar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: rgb(173, 173, 255);
+    text-decoration: none;
 }
-.opciones{
-  text-decoration: none;
-  color: green;
-  padding-left: 20px;
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
-.opciones:visited{
-  color: green;
-}
-.boton {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    text-shadow: 1px 1px 3px #9499d6;
-    font-family: Courier New;
-    color: #fff7ff;
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    font-family: Arial;
+    color: #ffffff;
     font-size: 20px;
-    background: orange;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
 
-  .errorCampo{
-    border-color: red;
-    border-width: 3px;
+  .errorCampo {
+      border-color: red;
+      border-width: 4px;
   }
-  .titulo{
-    text-align: center;
-    font-size: 18px;
-    color: green;
-    width: 100%;
+
+  .opciones {
+      text-decoration: none;
+      color: rgb(173, 173, 255);
+      padding-left: 20px;
   }
-    #bienvenida {
-      text-align: center;
-      color: violet;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-      font-size: 14px;
-    }
-  
-.inputget{
-  display: none;
-}
-  
-.container-photo{
-  width:100%;
-  height:auto;
-  background-color: black;
-  margin-bottom: 3px ;
+
+  .opciones:visited {
+      color: rgb(173, 173, 255);
+  }
+
+.inputget {
+    display: none;
 }
 
-.photo{
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  
+.container-photo {
+    background-color: #2f3542;
+    margin-bottom: 3px;
+    text-align: center;
 }
+
+.photo {
+    height: 200px;
+    object-fit: cover;
+}</pre>
+  </body>
+</html>
