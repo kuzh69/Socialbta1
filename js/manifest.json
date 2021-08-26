@@ -1,0 +1,13 @@
+{
+    "name": "Me - Stick Móvil",
+    "short_name": "Me-Stick",
+    "theme_color": "#333",
+    "background_color": "#333",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        
+    ]
+}
